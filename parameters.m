@@ -14,6 +14,9 @@ wn = 30;
 % damping ratio (dimensionless)
 psi = 0.80;
 
+% air density (ISA, kg/m^3)
+Rho = 1.225;
+
 % blade radius (m)
 Rpala = 1.6;
 
@@ -37,3 +40,11 @@ Ra = 2.58;
 
 % wires resistance (Ω)
 R = 10;
+
+% constants to compute Cp using semi-empirical methods (dimensionless)
+c1 = 0.51763;
+c2 = 116;
+c3 = 0.4;
+c4 = 5;
+c5 = 21;
+c6 = 0.006795;
