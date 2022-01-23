@@ -8,6 +8,12 @@ model.
 %---------------------------------------------------------------------------------------------------
 % MODEL PARAMETERS
 
+% natural frequency (Hz)
+wn = 30;
+
+% damping ratio (dimensionless)
+psi = 0.80;
+
 % blade radius (m)
 Rpala = 1.6;
 
