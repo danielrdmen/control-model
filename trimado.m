@@ -63,3 +63,10 @@ f_tran=tf(num,den);
 step(f_tran);
 zpk(f_tran)
 damp(f_tran)
+%% lugar de las raices
+rlocus(f_tran)
+%% diagrama de bode
+bode(f_tran)
+%% diagrama de nyquist
+nyquist(f_tran)
+%%
