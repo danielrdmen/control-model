@@ -1,3 +1,6 @@
 *.asv
 *.slxc
 slprj
+analysis
+*.slx.autosave
+*.slx.r2019a
