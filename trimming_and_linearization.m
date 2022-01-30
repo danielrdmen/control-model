@@ -61,6 +61,7 @@ fprintf(join(['Model linearization: \n', ...
 
 % computing transfer function...
 f_tran = tf(num, den);
+save('transfer_function', 'f_tran')
 fprintf('Model transfer function: \n')
 zpk(f_tran)
 
